@@ -1,6 +1,6 @@
 package programs;
 public class Department1 extends Department{
-    private int size;
+    private final int size;
 
     public Department1(int size) {
         this.size = size;
